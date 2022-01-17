@@ -9,7 +9,9 @@ import (
 )
 
 func FatalHandler(err error, info string) {
-	logrus.Fatal(info, err)
+	if err != nil {
+		logrus.Fatal(info, err)
+	}
 }
 
 func ChangeHouse(house string) string {

@@ -1,7 +1,9 @@
 package lib
 
 import (
+	"errors"
 	"fmt"
+	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 	"io"
 	"net/http"
@@ -11,11 +13,17 @@ import (
 
 var Config *config
 
+const ConfEnvName = "CONFIG_URI"
+
 func init() {
 	time.Local = time.FixedZone("CST", 8*3600) // 东八
-	fmt.Println("设置时区", time.Now())
+	logrus.Info("设置时区", time.Now())
 
-	confUrl := os.Getenv("CONFIG_URI")
+	confUrl := os.Getenv(ConfEnvName)
+	logrus.Info(ConfEnvName, confUrl)
+	if confUrl == "" {
+		FatalHandler(errors.New("请设置CONFIG_URI环境变量"), "")
+	}
 	Config = getConfig(confUrl)
 }
 
