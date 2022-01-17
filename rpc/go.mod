@@ -3,6 +3,7 @@ module github.com/lyj0309/jwc-lib/rpc
 go 1.17
 
 require (
+	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117122125-d8c65db6d5e9
 	github.com/rpcxio/rpcx-etcd v0.0.0-20211207054404-dde164a4b3c0
 	github.com/smallnest/rpcx v1.7.1
 )
@@ -62,6 +63,7 @@ require (
 	github.com/rpcxio/libkv v0.5.1-0.20210420120011-1fceaedca8a5 // indirect
 	github.com/rubyist/circuitbreaker v2.2.1+incompatible // indirect
 	github.com/samuel/go-zookeeper v0.0.0-20201211165307-7117e9ea2414 // indirect
+	github.com/sirupsen/logrus v1.8.1 // indirect
 	github.com/smallnest/quick v0.0.0-20200505103731-c8c83f9c76d3 // indirect
 	github.com/templexxx/cpufeat v0.0.0-20180724012125-cef66df7f161 // indirect
 	github.com/templexxx/xor v0.0.0-20191217153810-f85b25db303b // indirect

@@ -2,7 +2,10 @@ module github.com/lyj0309/jwc-lib/wx
 
 go 1.17
 
-require github.com/silenceper/wechat/v2 v2.1.0
+require (
+	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117122125-d8c65db6d5e9
+	github.com/silenceper/wechat/v2 v2.1.0
+)
 
 require (
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b // indirect

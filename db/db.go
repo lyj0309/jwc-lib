@@ -3,10 +3,10 @@ package dbLib
 import (
 	"context"
 	"github.com/go-redis/redis/v8"
+	"github.com/lyj0309/jwc-lib/lib"
 	"github.com/sirupsen/logrus"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
-	"minijwc-kefu/lib"
 )
 
 func NewDB() *gorm.DB {
