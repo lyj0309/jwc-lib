@@ -41,6 +41,10 @@ github.com/josharian/intern v1.0.0 h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8Hm
 github.com/josharian/intern v1.0.0/go.mod h1:5DoeVV0s6jJacbCEi61lwdGj/aVlrQvzHFFd8Hwg//Y=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117122125-d8c65db6d5e9 h1:lPuWeudnzPSAIdzKj5C/iTpnYWePj7AK1RSm3zZv/h0=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117122125-d8c65db6d5e9/go.mod h1:3NmZvx3clYs2te5GGmKI/bXaIpLH4QSYa9XKlDrIw+A=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220117123247-87030abcec5a h1:lEegqpPVr3tPzo+yfsutbCilAt2igj2EucsjhemsZ3g=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220117123247-87030abcec5a/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a h1:UG2jbPPzT652vHzMjPeY+Cq1wBpVXW8a9MpaYO1ErQc=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
 github.com/mailru/easyjson v0.7.7 h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0=
 github.com/mailru/easyjson v0.7.7/go.mod h1:xzfreul335JAWq5oZzymOObrkdz5UnU4kGfJJLY9Nlc=
 github.com/olivere/elastic/v7 v7.0.31 h1:VJu9/zIsbeiulwlRCfGQf6Tzsr++uo+FeUgj5oj+xKk=
@@ -120,5 +124,7 @@ gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8
 gopkg.in/yaml.v2 v2.2.8/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c h1:dUUwHk2QECo/6vqA44rthZ8ie2QXMNeKRTHCNY2nXvo=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
+gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b h1:h8qDotaEPuJATrMmW04NCwg7v22aHH28wwpauUhK9Oo=
+gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
 honnef.co/go/tools v0.0.0-20190523083050-ea95bdfd59fc/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=

@@ -15,6 +15,8 @@ github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
 github.com/kr/text v0.2.0/go.mod h1:eLer722TekiGuMkidMxC/pM04lWEeraHUUmBw8l2grE=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117122125-d8c65db6d5e9 h1:lPuWeudnzPSAIdzKj5C/iTpnYWePj7AK1RSm3zZv/h0=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117122125-d8c65db6d5e9/go.mod h1:3NmZvx3clYs2te5GGmKI/bXaIpLH4QSYa9XKlDrIw+A=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a h1:UG2jbPPzT652vHzMjPeY+Cq1wBpVXW8a9MpaYO1ErQc=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
 github.com/nbio/st v0.0.0-20140626010706-e9e8d9816f32/go.mod h1:9wM+0iRr9ahx58uYLpLIr5fm8diHn0JbqRycJi6w0Ms=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
@@ -47,3 +49,5 @@ gopkg.in/h2non/gock.v1 v1.0.15/go.mod h1:sX4zAkdYX1TRGJ2JY156cFspQn4yRWn6p9EMdOD
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c h1:dUUwHk2QECo/6vqA44rthZ8ie2QXMNeKRTHCNY2nXvo=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
+gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b h1:h8qDotaEPuJATrMmW04NCwg7v22aHH28wwpauUhK9Oo=
+gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=

@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/go-redis/redis/v8 v8.11.4
-	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117122125-d8c65db6d5e9
+	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a
 	github.com/sirupsen/logrus v1.8.1
 	gorm.io/driver/mysql v1.2.3
 	gorm.io/gorm v1.22.5
@@ -17,4 +17,5 @@ require (
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.4 // indirect
 	golang.org/x/sys v0.0.0-20210423082822-04245dca01da // indirect
+	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )

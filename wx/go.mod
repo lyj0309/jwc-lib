@@ -3,7 +3,7 @@ module github.com/lyj0309/jwc-lib/wx
 go 1.17
 
 require (
-	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117122125-d8c65db6d5e9
+	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a
 	github.com/silenceper/wechat/v2 v2.1.0
 )
 
@@ -15,4 +15,5 @@ require (
 	github.com/spf13/cast v1.3.1 // indirect
 	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83 // indirect
 	golang.org/x/sys v0.0.0-20210309074719-68d13333faf2 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )

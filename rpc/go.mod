@@ -3,7 +3,7 @@ module github.com/lyj0309/jwc-lib/rpc
 go 1.17
 
 require (
-	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117122125-d8c65db6d5e9
+	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a
 	github.com/rpcxio/rpcx-etcd v0.0.0-20211207054404-dde164a4b3c0
 	github.com/smallnest/rpcx v1.7.1
 )
@@ -97,4 +97,5 @@ require (
 	google.golang.org/grpc v1.36.0 // indirect
 	google.golang.org/protobuf v1.26.0 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
