@@ -2,7 +2,6 @@ package lib
 
 import (
 	"errors"
-	"fmt"
 	"github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 	"io"
@@ -20,27 +19,39 @@ func init() {
 	logrus.Info("设置时区", time.Now())
 
 	confUrl := os.Getenv(ConfEnvName)
-	logrus.Info(ConfEnvName, confUrl)
-	if confUrl == "" {
-		FatalHandler(errors.New("请设置CONFIG_URI环境变量"), "")
+	//logrus.Info(ConfEnvName, confUrl)
+
+	b, err := getConfigFromUrl(confUrl)
+	if err != nil {
+		logrus.Info("请求网络配置出错", err)
+		b, err = os.ReadFile("./config.yml")
+		if err != nil {
+			logrus.Fatal("读取本地配置出错")
+		}
 	}
-	Config = getConfig(confUrl)
+
+	FatalHandler(yaml.Unmarshal(b, &Config), "解析yml出错")
+
 }
 
-func getConfig(url string) *config {
-	e := "请求配置出错"
+func getConfigFromUrl(url string) (res []byte, err error) {
+	if url == "" {
+		err = errors.New("没设置CONFIG_URI环境变量")
+		return
+	}
+
 	resp, err := http.Get(url)
-	FatalHandler(err, e)
+	if err != nil {
+		return
+	}
 
-	body, err := io.ReadAll(resp.Body)
-	FatalHandler(err, e)
+	defer resp.Body.Close()
 
-	FatalHandler(resp.Body.Close(), e)
-	fmt.Println(string(body))
-
-	var c *config
-	FatalHandler(yaml.Unmarshal(body, c), e)
-	return c
+	res, err = io.ReadAll(resp.Body)
+	if err != nil {
+		return
+	}
+	return
 }
 
 //config 设置结构体
@@ -64,8 +75,4 @@ type config struct {
 	ElasticAddr       string    `yaml:"elastic_addr"`
 	ElasticUser       string    `yaml:"elastic_user"`
 	ElasticPass       string    `yaml:"elastic_pass"`
-	BanID             []struct {
-		ID     string `yaml:"ID"`
-		Reason string `yaml:"reason"`
-	} `yaml:"banID"`
 }
