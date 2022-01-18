@@ -39,6 +39,8 @@ github.com/lyj0309/jwc-lib/lib v0.0.0-20220117123247-87030abcec5a h1:lEegqpPVr3t
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117123247-87030abcec5a/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a h1:UG2jbPPzT652vHzMjPeY+Cq1wBpVXW8a9MpaYO1ErQc=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220117160325-2bef21755a78 h1:jtAJF7zT2DKKBjwpBGfLqpbWibAQJ8bkoLx1Rxg8JN8=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220117160325-2bef21755a78/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
 github.com/nxadm/tail v1.4.4/go.mod h1:kenIhsEOeOJmVchQTgglprH7qJGnHDVpk1VPCcaMI8A=
 github.com/nxadm/tail v1.4.8 h1:nPr65rt6Y5JFSKQO7qToXr7pePgD6Gwiw05lkbyAQTE=
 github.com/nxadm/tail v1.4.8/go.mod h1:+ncqLTQzXmGhMZNUePPaPqPvBxHAIsmXswZKocGu+AU=

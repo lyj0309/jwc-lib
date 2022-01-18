@@ -3,7 +3,7 @@ module github.com/lyj0309/jwc-lib/rpc
 go 1.17
 
 require (
-	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a
+	github.com/lyj0309/jwc-lib/lib v0.0.0-20220118104142-26eb77e15eb8
 	github.com/rpcxio/rpcx-etcd v0.0.0-20211207054404-dde164a4b3c0
 	github.com/smallnest/rpcx v1.7.1
 )

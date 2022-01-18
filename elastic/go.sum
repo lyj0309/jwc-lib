@@ -45,6 +45,8 @@ github.com/lyj0309/jwc-lib/lib v0.0.0-20220117123247-87030abcec5a h1:lEegqpPVr3t
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117123247-87030abcec5a/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a h1:UG2jbPPzT652vHzMjPeY+Cq1wBpVXW8a9MpaYO1ErQc=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220118104142-26eb77e15eb8 h1:DbT+HJKJz4Dyt/6Wc47WxKIyqcCNE/ah0cOimCcAHc0=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220118104142-26eb77e15eb8/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
 github.com/mailru/easyjson v0.7.7 h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0=
 github.com/mailru/easyjson v0.7.7/go.mod h1:xzfreul335JAWq5oZzymOObrkdz5UnU4kGfJJLY9Nlc=
 github.com/olivere/elastic/v7 v7.0.31 h1:VJu9/zIsbeiulwlRCfGQf6Tzsr++uo+FeUgj5oj+xKk=

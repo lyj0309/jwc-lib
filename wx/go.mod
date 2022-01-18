@@ -3,7 +3,7 @@ module github.com/lyj0309/jwc-lib/wx
 go 1.17
 
 require (
-	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a
+	github.com/lyj0309/jwc-lib/lib v0.0.0-20220118104142-26eb77e15eb8
 	github.com/silenceper/wechat/v2 v2.1.0
 )
 

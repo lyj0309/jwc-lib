@@ -252,6 +252,8 @@ github.com/lucas-clemente/quic-go v0.23.0/go.mod h1:paZuzjXCE5mj6sikVLMvqXk8lJV2
 github.com/lunixbochs/vtclean v1.0.0/go.mod h1:pHhQNgMf3btfWnGBVipUOjRYhoOsdGqdm/+2c2E2WMI=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a h1:UG2jbPPzT652vHzMjPeY+Cq1wBpVXW8a9MpaYO1ErQc=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220118104142-26eb77e15eb8 h1:DbT+HJKJz4Dyt/6Wc47WxKIyqcCNE/ah0cOimCcAHc0=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220118104142-26eb77e15eb8/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
 github.com/mailru/easyjson v0.0.0-20190312143242-1de009706dbe/go.mod h1:C1wdFJiN94OJF2b5HbByQZoLdCWB1Yqtg26g4irojpc=
 github.com/marten-seemann/qpack v0.1.0/go.mod h1:LFt1NU/Ptjip0C2CPkhimBz5CGE3WGDAUWqna+CNTrI=
 github.com/marten-seemann/qpack v0.2.0/go.mod h1:F7Gl5L1jIgN1D11ucXefiuJS9UMVP2opoCp2jDKb7wc=

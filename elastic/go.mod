@@ -3,7 +3,7 @@ module github.com/lyj0309/jwc-lib/elastic
 go 1.17
 
 require (
-	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a
+	github.com/lyj0309/jwc-lib/lib v0.0.0-20220118104142-26eb77e15eb8
 	github.com/olivere/elastic/v7 v7.0.31
 )
 
