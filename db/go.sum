@@ -33,8 +33,8 @@ github.com/jinzhu/inflection v1.0.0/go.mod h1:h+uFLlag+Qp1Va5pdKtLDYj+kHp5pxUVkr
 github.com/jinzhu/now v1.1.3/go.mod h1:d3SSVoowX0Lcu0IBviAWJpolVfI5UJVZZ7cO71lE/z8=
 github.com/jinzhu/now v1.1.4 h1:tHnRBy1i5F2Dh8BAFxqFzxKqqvezXrL2OW1TnX+Mlas=
 github.com/jinzhu/now v1.1.4/go.mod h1:d3SSVoowX0Lcu0IBviAWJpolVfI5UJVZZ7cO71lE/z8=
-github.com/lyj0309/jwc-lib/lib v0.0.0-20220117160325-2bef21755a78 h1:jtAJF7zT2DKKBjwpBGfLqpbWibAQJ8bkoLx1Rxg8JN8=
-github.com/lyj0309/jwc-lib/lib v0.0.0-20220117160325-2bef21755a78/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220122094109-a511d018ec74 h1:XwyJErqoqvcLvimK0Sg3B2lesXXxGhZRHGmtt3B7Ifs=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220122094109-a511d018ec74/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
 github.com/nxadm/tail v1.4.4/go.mod h1:kenIhsEOeOJmVchQTgglprH7qJGnHDVpk1VPCcaMI8A=
 github.com/nxadm/tail v1.4.8 h1:nPr65rt6Y5JFSKQO7qToXr7pePgD6Gwiw05lkbyAQTE=
 github.com/nxadm/tail v1.4.8/go.mod h1:+ncqLTQzXmGhMZNUePPaPqPvBxHAIsmXswZKocGu+AU=

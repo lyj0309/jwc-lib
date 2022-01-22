@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/go-redis/redis/v8 v8.11.4
-	github.com/lyj0309/jwc-lib/lib v0.0.0-20220117160325-2bef21755a78
+	github.com/lyj0309/jwc-lib/lib v0.0.0-20220122094109-a511d018ec74
 	github.com/sirupsen/logrus v1.8.1
 	gorm.io/driver/mysql v1.2.3
 	gorm.io/gorm v1.22.5

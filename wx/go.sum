@@ -18,6 +18,8 @@ github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a h1:UG2jbPPzT65
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220117141114-63f3ecb13a2a/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220118104142-26eb77e15eb8 h1:DbT+HJKJz4Dyt/6Wc47WxKIyqcCNE/ah0cOimCcAHc0=
 github.com/lyj0309/jwc-lib/lib v0.0.0-20220118104142-26eb77e15eb8/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220122094109-a511d018ec74 h1:XwyJErqoqvcLvimK0Sg3B2lesXXxGhZRHGmtt3B7Ifs=
+github.com/lyj0309/jwc-lib/lib v0.0.0-20220122094109-a511d018ec74/go.mod h1:4/wIc5J5AwUGFn6HydYqFmWqn7HmgfzkPWBE9Oi3H6k=
 github.com/nbio/st v0.0.0-20140626010706-e9e8d9816f32/go.mod h1:9wM+0iRr9ahx58uYLpLIr5fm8diHn0JbqRycJi6w0Ms=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e h1:fD57ERR4JtEqsWbfPhv4DMiApHyliiK5xCTNVSPiaAs=
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
